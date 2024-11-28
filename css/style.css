@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Source Sans 4",sans-serif;
+
+}
+
+:root{
+    --main-color:#6f7072;
+    --secondary-color:#0070CD;
+    --third-color:#EEF0F2;
+    --Fourth-color:#FFFFFF
+
+}
+
+body{
+    font-family:"Source Sans 4",sans-serif;
+}
+.section-subtitle{
+    max-width:500px;
+}
+.main-color{
+    color: var(--main-color) !important;
+}
+.main-background-color{
+    color: var(--main-color) !important;
+}
+.navbar{
+    background-color: var(--secondary-color)!important;
+    color: var(--Fourth-color)!important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 9999999999999999;
+}
+  
+.navbar-brand{
+    color: var(--Fourth-color) !important;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing:1.2px;
+    padding-top: 10px !important;
+    vertical-align:middle;
+
+
+}
+.navbar span{
+    color: #D71F25;
+    font-size:38px ;
+}
+.navbar-nav{
+    margin-right: 50px;
+}
+.navbar-toggler{
+    color: var(--Fourth-color);
+}
+.navbar .nav-item a{
+    font-size: 16px !important;
+    font-weight: 600;
+    vertical-align:middle;
+    line-height: 31px;
+    padding-top: 10px !important;
+    margin-right: 15px !important;
+    text-decoration: none !important;
+}
+ 
+.navbar .nav-link.active {
+    text-decoration: underline #EF0F0F !important;
+    text-underline-offset: 4px !important;
+}
+.nav-link{
+    color: var(--Fourth-color)!important;
+    transition: all 0.3s;
+}
+
+#home{
+    height:100vh;
+}
+#home{
+    background-image:url(../img/homecovernewen1-eg.jpg);
+    background-size: cover;
+    background-position:top;
+}
+/* .overlay{
+    background-color:rgba(0,0, 0,0.5);
+} */
+.start-conten{
+    color: var(--main-color);
+    font-size:48.8px;
+    line-height:41.58px;
+    font-weight: 800;
+
+}
+.doctor{
+    background-color: #ffffff;
+    width:90%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: -1px -1px 12px  rgba(0, 0, 0, 0.3);
+}
+/* .doc-top{
+    border-bottom:var(--main-color) 1px solid !important;
+} */
+/* .Telehealth,.Book-doctor{
+    width:50%;
+} */
+.Book-doctor{
+    color: var(--main-color);
+    border-bottom:var(--third-color) 1px solid !important;
+
+}
+.Book-doctor h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.Book-doctor p{
+    font-size:16px;
+    font-weight: 500;
+}
+.Telehealth{
+    border-bottom:var(--secondary-color) 3px solid !important;
+    color: #0070CD;
+
+}
+.Telehealth h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.Telehealth p{
+    font-size:16px;
+    font-weight: 500;
+}
+.doc-icon{
+    font-size: 20px;
+    font-weight: 700;
+}
+.doc-bootom button{
+    background-color: #EF0F0F;
+    color: #ffffff;
+    border: none;
+    width:150px;
+    padding:20px 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.doc-bootom input{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: inherit !important;
+}
+
+
+
+.carousel-inner{
+    height:100vh;
+}
+.carousel-indicators {
+    display: none; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none; 
+}
+.healthcare{
+    background-color: #EEF0F2;
+    padding: 50px 0px;
+}
+.healthcare h1{
+    color: var(--main-color);
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.question {
+    background-color: #ffffff;
+    padding: 30px;
+}
+.healthcare .question h3{
+    color: var(--main-color);
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.healthcare .question p{
+    color: var(--main-color);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.healthcare .question button{
+    background-color:rgb(229, 241, 255);
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    width:180px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.offer{
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 50px 0px;
+}
+.offer img{
+    border-radius: 10px !important;
+}
+
+.footer{
+    padding: 100px 0;
+    background-color:var(--secondary-color);
+}
+.footer-content{
+    font-family: Poppins, sans-serif;
+    color:var(--third-color);
+    font-size:18px;
+    line-height:25.8px;
+    font-weight:500;
+}
+.footer-content a{
+    font-family: Poppins, sans-serif;
+    color:#b8bfbf;
+    font-size:18px;
+    line-height:25.8px;
+    font-weight:500;
+    text-decoration: none;
+    text-transform: none;
+}
